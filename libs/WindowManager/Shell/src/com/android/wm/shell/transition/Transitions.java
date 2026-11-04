@@ -391,6 +391,7 @@ public class Transitions implements RemoteCallable<Transitions>,
         mShellController = shellController;
         // The very last handler (0 in the list) should be the default one.
         mHandlers.add(mDefaultTransitionHandler);
+        mHandlers.add(new ParallelAppTransitionHandler());
         ProtoLog.v(WM_SHELL_TRANSITIONS, "addHandler: Default");
         // Next lowest priority is remote transitions.
         mHandlers.add(mRemoteTransitionHandler);
