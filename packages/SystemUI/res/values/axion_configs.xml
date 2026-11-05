@@ -17,12 +17,12 @@
  */
 -->
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
-    <string name="config_batterymeterPerimeterPath" translatable="false">M3.5,2 v0 H1.33 C0.6,2 0,2.6 0,3.33 V13v5.67 C0,19.4 0.6,20 1.33,20 h9.33 C11.4,20 12,19.4 12,18.67 V13V3.33 C12,2.6 11.4,2 10.67,2 H8.5 V0 H3.5 z M2,18v-7V4h8v9v5H2L2,18z</string>
+    <string name="config_batterymeterPerimeterPath" translatable="false">M4.2,2.5H7.8A3.2,3.2 0 0 1 11,5.7V16.8A3.2,3.2 0 0 1 7.8,20H4.2A3.2,3.2 0 0 1 1,16.8V5.7A3.2,3.2 0 0 1 4.2,2.5ZM4.5,1.7V1.5A1.2,1.2 0 0 1 5.7,0.3H6.3A1.2,1.2 0 0 1 7.5,1.5V1.7Z</string>
     <string name="config_batterymeterErrorPerimeterPath" translatable="false">@string/config_batterymeterPerimeterPath</string>
-    <string name="config_batterymeterFillMask" translatable="false">M2,18 v-14 h8 v14 z</string>
+    <string name="config_batterymeterFillMask" translatable="false">M1,2.5H11V20H1Z</string>
     <string name="config_batterymeterBoltPath" translatable="false">M5,17.5 V12 H3 L7,4.5 V10 h2 L5,17.5 z</string>
     <string name="config_batterymeterPowersavePath" translatable="false">M9,10l-2,0l0,-2l-2,0l0,2l-2,0l0,2l2,0l0,2l2,0l0,-2l2,0z</string>
-    <bool name="config_batterymeterDualTone">false</bool>
+    <bool name="config_batterymeterDualTone">true</bool>
     <integer name="config_batterymeterWidth">12</integer>
     <integer name="config_batterymeterHeight">20</integer>
     <bool name="config_batterymeterHorizontalFill">false</bool>
@@ -46,7 +46,7 @@
          set its own value — shapes need different sizes. -->
     <integer name="config_batteryMeterComposeVisualScalePercent">100</integer>
     <!-- When true, use ThemedBatteryDrawable (RRO paths) even if NewStatusBarIcons is enabled. -->
-    <bool name="config_batteryMeterPreferLegacyThemedDrawable">false</bool>
+    <bool name="config_batteryMeterPreferLegacyThemedDrawable">true</bool>
     <integer name="config_batteryOverrideStyle">-1</integer>
     <bool name="config_themedBatteryPercentWhileCharging">false</bool>
     <bool name="config_themedBatteryPillStyle">false</bool>
