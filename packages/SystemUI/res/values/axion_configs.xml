@@ -17,9 +17,9 @@
  */
 -->
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
-    <string name="config_batterymeterPerimeterPath" translatable="false">M4.2,2.5H7.8A3.2,3.2 0 0 1 11,5.7V16.8A3.2,3.2 0 0 1 7.8,20H4.2A3.2,3.2 0 0 1 1,16.8V5.7A3.2,3.2 0 0 1 4.2,2.5ZM4.5,1.7V1.5A1.2,1.2 0 0 1 5.7,0.3H6.3A1.2,1.2 0 0 1 7.5,1.5V1.7Z</string>
+    <string name="config_batterymeterPerimeterPath" translatable="false">M3.911,2.156H8.089A2.536,2.536 0 0 1 10.625,4.693V17.464A2.536,2.536 0 0 1 8.089,20H3.911A2.536,2.536 0 0 1 1.375,17.464V4.693A2.536,2.536 0 0 1 3.911,2.156ZM4.254,1.41A1.788,1.788 0 0 1 7.746,1.41Z</string>
     <string name="config_batterymeterErrorPerimeterPath" translatable="false">@string/config_batterymeterPerimeterPath</string>
-    <string name="config_batterymeterFillMask" translatable="false">M1,2.5H11V20H1Z</string>
+    <string name="config_batterymeterFillMask" translatable="false">M1.375,2.156H10.625V20H1.375Z</string>
     <string name="config_batterymeterBoltPath" translatable="false">M5,17.5 V12 H3 L7,4.5 V10 h2 L5,17.5 z</string>
     <string name="config_batterymeterPowersavePath" translatable="false">M9,10l-2,0l0,-2l-2,0l0,2l-2,0l0,2l2,0l0,2l2,0l0,-2l2,0z</string>
     <bool name="config_batterymeterDualTone">true</bool>
